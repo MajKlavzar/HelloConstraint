@@ -9,9 +9,9 @@
 
     <Button
         android:id="@+id/button_toast"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_width="170dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="32dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="@color/primary"
         android:onClick="showToast"
@@ -24,9 +24,9 @@
 
     <Button
         android:id="@+id/button_zero"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="@color/gray"
         android:onClick="zero"
@@ -39,9 +39,9 @@
 
     <Button
         android:id="@+id/button_count"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_width="170dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="32dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="@color/primary"
         android:onClick="countUp"
@@ -54,8 +54,8 @@
 
     <TextView
         android:id="@+id/show_count"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="365dp"
+        android:layout_height="364dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -69,6 +69,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button_toast"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
